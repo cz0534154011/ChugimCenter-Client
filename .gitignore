@@ -1,0 +1,16 @@
+node_modules
+dist
+dist-ssr
+*.local
+.env.local
+.env.*.local
+npm-debug.log*
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.sln
+.vs
+# קובץ הדוגמה להגדרות נכנס ל-git (אין בו סודות), גם אם הגדרה כללית במחשב מתעלמת מקבצי .env
+!.env.example
