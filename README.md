@@ -2,6 +2,12 @@
 
 לקוח React לאתר רישום לחוגי בנות. הלקוח מתחבר לשרת [ChugimCenter](https://github.com/cz0534154011/ChugimCenter) (ASP.NET Core Web API) ומציג את כל האפשרויות שלו לכל תפקיד.
 
+## האתר בענן
+
+האתר עלה ל-Render כאתר סטטי: https://chugimcenter.onrender.com
+
+הוא פונה לשרת בכתובת https://chugimcenter-api.onrender.com (משתנה `VITE_API_URL` בהגדרות האתר ב-Render). השרת בתוכנית החינמית "נרדם" אחרי זמן בלי פעילות, ולכן הטעינה הראשונה יכולה לקחת עד כדקה. משתמשות הדמו מופיעות ב-README של השרת.
+
 ## טכנולוגיות
 
 - React 19, ‏Vite, ‏React Router ו-Axios.
